@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "version": "2.0",
+  "name": "Color scalper",
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png",
+    "default_title": "Colors"
+  }
+}

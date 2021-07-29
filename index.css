@@ -1,0 +1,9 @@
+body{
+  min-width: 350px;
+}
+
+h1 {
+  width:fit-content;
+  font-variant: small-caps;
+  color: goldenrod;
+}
